@@ -1,0 +1,250 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+@import url('http://fonts.cdnfonts.com/css/montserrat');
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+body main{
+    width: 1920px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+                 /*section_top  /  header*/
+
+}
+.section_top{
+    width: 1170px;
+    height: 775px;
+    margin: 30px 0 150px 0;
+}
+.section_top header {
+    width: 100%;
+    height: 79px;
+    display: flex;
+    align-items: center;
+}
+.section_top header nav{
+    display: flex;
+    width: 403px;
+    margin-left: auto;
+    justify-content: space-between;
+}
+.section_top header nav a{
+    font-size: 16px;
+    color:  #835A3A;
+    text-decoration: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    line-height: 130%;
+    font-weight: 500;
+}
+.section_top .dog_bord{
+    margin-top: 100px;
+    display: flex;
+    width: 575px;
+    height: 474px;
+}
+.section_top .dog_bord .left #p_dog_top{
+    font-weight: 800;
+    font-size: 110px;
+    line-height: 100%;
+    letter-spacing: 0.05em;
+    color: #F37F34;
+}
+.section_top .dog_bord .left #p_dog_center{
+    font-weight: 800;
+    font-size: 110px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #774E2E;
+    margin: -30px 0 10px 0;
+}
+.section_top .dog_bord .left #p_dog_bottom{
+    width: 575px;
+    height: 96px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #774E2E;
+}
+.section_top .dog_bord .left{
+    margin: 61px 20px 0 0;
+}
+.section_top .dog_bord .left div {
+    width: 343px;
+    height: 69px;
+    background-color: #774E2E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.section_top .dog_bord .left div a{
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #000000;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+.section_top.dog_bord .right img{
+    width: 575px;
+    height: 596px;
+}
+
+                    /*section_center*/
+
+.section_center{
+    width: 1920px;
+    height: 911px;
+    background-color: #FFF9EA;
+    display: flex;
+    justify-content: center;
+}
+
+.section_center .section_center_in{
+    width: 1170px;
+    height: 611px;
+    margin: 150px 375px 150px 375px;
+}
+.section_center .section_center_in .h1{
+    width: 1151px;
+    height: 79px;
+    font-weight: 700;
+    font-size: 53px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #F37F34;;
+}
+.section_center .section_center_in .h1 #span{
+    color: #774E2E;
+}
+.section_center .section_center_in .candies{
+    display: flex;
+    justify-content: space-between;
+}
+.section_center .section_center_in .candies div{
+    width: 370px;
+    height: 462px;
+    background: #FFFFFF;
+}
+.section_center .section_center_in .candies div h4{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #673B19;
+    margin: 36px 0 15px 0;
+}
+.section_center .section_center_in .candies div p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #774E2E;
+}
+
+                        /*section_bottom*/
+
+.section_bottom{
+    width: 1170px;
+    height: 722px;
+    margin: 150px 375px 150px 375px;
+    display: flex;
+}
+.section_bottom .img img{
+    width: 575px;
+    height: 722px;
+}
+.section_bottom .text{
+    width: 575px;
+    height: 635px;
+    margin-right: 20px;
+    margin-top: 44px;
+}
+.section_bottom .text .text_h1{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 110%;
+    letter-spacing: 0.01em;
+    color: #F37F34;
+    text-transform: uppercase;
+}
+.section_bottom .text .text_h2{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 110%;
+    letter-spacing: 0.01em;
+    color: #774E2E;
+    text-transform: uppercase;
+}
+.section_bottom .text p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #774E2E;
+    margin: 30px 0 60px 0;
+}
+.section_bottom .text h2{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #673B19;
+}
+.section_bottom .text ol{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #774E2E;
+    list-style: disc;
+    margin-top: 20px;
+}
+footer{
+    width: 1920px;
+    height: 179px;
+    background: #774E2E;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+footer .footer_logo{
+    width: 99px;
+    height: 99px;
+    margin: 40px 0 40px 375px;
+}
+footer .footer_h1{
+    width: 60%;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+
+}
+
+
+
